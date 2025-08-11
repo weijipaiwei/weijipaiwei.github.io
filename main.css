@@ -1053,25 +1053,16 @@ hr.soft {
     color: white
 }
 
-.icon-button.hf {
-  background: #f5f5f5; /* 淡灰背景 */
-  color: #ff6f61;       /* Hugging Face 品牌橙红 */
-  border-radius: 50%;
-  text-align: center;
-  font-size: 20px;
-  padding: 10px;
-  margin: 5px;
-  display: inline-block;
-  transition: background 0.3s ease;
+.huggingface span {
+    background-color: #ffcd4f; /* Hugging Face 主色：黄色 */
 }
 
-.icon-button.hf:hover {
-  background: #ffd8d2;  /* hover 效果 */
+.icon-button .icon-huggingface {
+    color: #ffcd4f;
 }
 
-.icon-hf {
-  font-family: "FontAwesome"; /* 使用合适 icon 字体 */
-  content: "\f5dc"; /* 可替换为合适的图标（如 brain） */
+.icon-button:hover .icon-huggingface {
+    color: white;
 }
 
 .timeline-brief,
