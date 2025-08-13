@@ -1045,8 +1045,8 @@ hr.soft {
     color: #0077B5
 }
 
-.icon-button .wechat {
-    color: #0077B5
+.icon-button .icon-wechat {
+    color: #06AD56
 }
 
 
@@ -1056,8 +1056,8 @@ hr.soft {
 .icon-button:hover .icon-linkedin {
     color: white
 }
-.icon-button:hover .wechat {
-    color: #06AD56
+.icon-button:hover .icon-wechat {
+    color: white
 }
 
 .huggingface span {
