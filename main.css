@@ -1045,12 +1045,19 @@ hr.soft {
     color: #0077B5
 }
 
+.icon-button .wechat {
+    color: #0077B5
+}
+
 
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-linkedin {
     color: white
+}
+.icon-button:hover .wechat {
+    color: #06AD56
 }
 
 .huggingface span {
